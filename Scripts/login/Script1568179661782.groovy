@@ -23,6 +23,8 @@ WebUI.setText(findTestObject('Page_Karir.com/input_Kata sandi_userpassword'), 'i
 
 WebUI.click(findTestObject('Page_Karir.com/input_Daftar sekarang_commit'))
 
+WebUI.verifyElementText(findTestObject('Page_Lowongan Kerja Terbaru 2019  K/a_Sign Out'), 'Sign Out')
+
 WebUI.click(findTestObject('Page_Lowongan Kerja Terbaru 2019  K/a_Sign Out'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
